@@ -274,17 +274,6 @@
       },
       "url": "https://packages.unity.com"
     },
-    "com.unity.xr.dmprovider": {
-      "version": "https://github.com/deepmirrorinc/UnityXRProvider.git?path=/Assets#lsm/AssemblePrefab_2",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {
-        "com.unity.xr.management": "4.0.0",
-        "com.unity.xr.interaction.toolkit": "2.5.3",
-        "com.unity.xr.hands": "1.3.0"
-      },
-      "hash": "9ed7cfe7adf660c93d84d0c69f1fb6d6fbfbe4e9"
-    },
     "com.unity.xr.hands": {
       "version": "1.3.0",
       "depth": 1,
@@ -334,6 +323,17 @@
         "com.unity.xr.legacyinputhelpers": "2.1.7"
       },
       "url": "https://packages.unity.com"
+    },
+    "com.unity.xr.surrealsdk": {
+      "version": "https://github.com/surreal-interactive/SDK.git?path=/Assets#lsm/Refactor_2",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.xr.management": "4.0.0",
+        "com.unity.xr.interaction.toolkit": "2.5.3",
+        "com.unity.xr.hands": "1.3.0"
+      },
+      "hash": "3a0b7538f9fcd65722708f74530439d7ed39bf13"
     },
     "com.unity.xr.visionos": {
       "version": "1.0.3",
