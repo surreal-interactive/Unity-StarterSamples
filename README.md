@@ -46,17 +46,17 @@ Follow instructions below to build and run:
 
 # Adapt Oculus Project to Surreal visionOS
 
-Assume you have developed an application with Oculus such as [Unity-StarterSamples](https://github.com/oculus-samples/Unity-StarterSamples/blob/d1df2ece3ed7fcc572ac645cbe240beabd611547/Assets/StarterSamples/Usage/DistanceGrab.unity) before, now we demonstrate how to adapt it from Oculus to Surreal visionOS.
+Assume you have developed an application with Oculus SDK such as [Unity-StarterSamples](https://github.com/oculus-samples/Unity-StarterSamples/blob/d1df2ece3ed7fcc572ac645cbe240beabd611547/Assets/StarterSamples/Usage/DistanceGrab.unity) before, now we demonstrate how to adapt it from Oculus to Surreal visionOS.
 
 1. Delete Oculus relevant objects
 
    There are three game objects which are relevant to Oculus in this scene:
    
-   `i.   CanvasWithDebug`
+   i.   `CanvasWithDebug`
    
-   `ii.  DistanceGrabberSampleScript`
+   ii.  `DistanceGrabberSampleScript`
    
-   `iii. PlayerController`
+   iii. `PlayerController`
 
 <p align="center">
     <img src="https://github.com/user-attachments/assets/29337020-fd59-4b01-8a3a-3ce219da87c7" alt="description" width="80%">
@@ -74,17 +74,17 @@ Assume you have developed an application with Oculus such as [Unity-StarterSampl
 
    You get a pretty clean environment right now, you can follow the step-by-step instruction as shown in [Surreal VR SDK](https://github.com/surreal-interactive/SDK/tree/master):
 
-   `SDK Step1. Install Vision Pro depended packages`
+   SDK Step1. `Install Vision Pro depended packages`
 
-   `SDK Step2. Install Surreal Touch Unity package`
+   SDK Step2. `Install Surreal Touch Unity package`
 
-   `SDK Step3. Check visionOS in Project Settings`
+   SDK Step3. `Check visionOS in Project Settings`
 
-   `SDK Step4. Put SVRCameraRig into your scene`
+   SDK Step4. `Put SVRCameraRig into your scene`
 
-   `SDK Step5. Build Unity project`
+   SDK Step5. `Build Unity project`
 
-   `SDK Step6. Request bluetooth permission and build xcode project`
+   SDK Step6. `Request bluetooth permission and build xcode project`
    
 4. All Done!
 
