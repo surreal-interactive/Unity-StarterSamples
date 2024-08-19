@@ -10,6 +10,8 @@ This is a simple Unity visionOS project powered by Surreal Touch, structure of t
 
 We encourage you to build and run the sample scene first before you dive into Surreal VR SDK, compare the differences between two scenes will help you to port your original Oculus projects to "Surreal Touch visionOS projects" smoothly.
 
+After that, it's recommended to try Surreal Touch SDK following [Step-by-Step instruction](https://github.com/surreal-interactive/SDK/blob/master/README.md) by creating a brand new scene under this project.
+
 <p align="center">
    <img src="https://github.com/user-attachments/assets/95797844-f26a-41f4-9d15-5884247c194a" alt="description" width="80%">
 </p>
