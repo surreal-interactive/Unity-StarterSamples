@@ -54,11 +54,11 @@ Assume you have developed an application with Oculus SDK such as [Unity-StarterS
 
    There are three game objects which are relevant to Oculus in this scene:
    
-   1.1 `CanvasWithDebug`
+   - `CanvasWithDebug`
    
-   1.2 `DistanceGrabberSampleScript`
+   - `DistanceGrabberSampleScript`
    
-   1.3 `PlayerController`
+   - `PlayerController`
 
 <p align="center">
     <img src="https://github.com/user-attachments/assets/29337020-fd59-4b01-8a3a-3ce219da87c7" alt="description" width="80%">
