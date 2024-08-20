@@ -61,15 +61,7 @@ Assume you have developed an application with Oculus SDK such as [Unity-StarterS
     <img src="https://github.com/user-attachments/assets/29337020-fd59-4b01-8a3a-3ce219da87c7" alt="description" width="80%">
 </p>
 
-2. (Optional)Replace `DistanceGrabbable.cs` with `SVRDistanceGrabbable.cs`
-
-   `DistanceGrabbable.cs` and `Hand.cs` are Oculus relevant scripts mounted on game objects which are grabbable, let's replace them with `SVRDistanceGrabbable.cs`.
-
-<p align="center">
-   <img src="https://github.com/user-attachments/assets/2eb7eade-260c-4c4c-ba33-50d9b29bd242" alt="description" width="80%">
-</p>
-
-3. Follow step-by-step instruction in [Surreal VR SDK](https://github.com/surreal-interactive/SDK/tree/master)
+2. Follow step-by-step instruction in [Surreal VR SDK](https://github.com/surreal-interactive/SDK/tree/master)
 
    You get a pretty clean environment right now, you can follow the step-by-step instruction as shown in [Surreal VR SDK](https://github.com/surreal-interactive/SDK/tree/master):
 
@@ -81,11 +73,20 @@ Assume you have developed an application with Oculus SDK such as [Unity-StarterS
 
    SDK Step4. `Put SVRCameraRig into your scene`
 
-   SDK Step5. `Build Unity project`
+3. (Optional)Replace `DistanceGrabbable.cs` with `SVRDistanceGrabbable.cs`
 
-   SDK Step6. `Request bluetooth permission and build xcode project`
+   `DistanceGrabbable.cs` and `Hand.cs` are Oculus relevant scripts mounted on game objects which are grabbable, let's replace them with `SVRDistanceGrabbable.cs`.
+
+<p align="center">
+   <img src="https://github.com/user-attachments/assets/2eb7eade-260c-4c4c-ba33-50d9b29bd242" alt="description" width="80%">
+</p>
+
+4. Build project
+
+   Now you can build Unity and xcode project following step5 and step6 in [Surreal VR SDK](https://github.com/surreal-interactive/SDK/tree/master).
    
-4. All Done!
+
+6. All Done!
 
    Don't forget to connect Surreal Touch controllers to Apple Vision Pro in Settings/Bluetooth in your device!
    
