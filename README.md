@@ -16,10 +16,7 @@ After that, it's recommended to try Surreal VR SDK following [Step-by-Step instr
    <img src="https://github.com/user-attachments/assets/95797844-f26a-41f4-9d15-5884247c194a" alt="description" width="80%">
 </p>
 
-__Note__
-
-__Versions of Unity prior to 2022.3 are not supported.__
-
+> ℹ️ Versions of Unity prior to 2022.3 are not supported.
 
 # Build And Run Sample Scene
 
