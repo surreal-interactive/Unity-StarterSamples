@@ -93,3 +93,7 @@ Assume you have developed an application with Oculus SDK such as [Unity-StarterS
 Video here:
 
    [Distance grab.webm](https://github.com/surreal-interactive/SDK/assets/73978606/a706a050-3729-40ec-af5e-baa2421e1634)
+
+## TestFlight
+
+Please try this example via [TestFlight](https://testflight.apple.com/join/u7N3N6QX).
