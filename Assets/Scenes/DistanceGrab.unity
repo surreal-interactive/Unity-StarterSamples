@@ -294,7 +294,7 @@ PrefabInstance:
     - target: {fileID: 6282743567244760682, guid: 6ae82f037a06349078173ebe409ec61f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.421
+      value: 1.394
       objectReference: {fileID: 0}
     - target: {fileID: 6282743567244760682, guid: 6ae82f037a06349078173ebe409ec61f,
         type: 3}
@@ -942,7 +942,7 @@ Transform:
   m_GameObject: {fileID: 1723585589}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.307, z: 0.819}
+  m_LocalPosition: {x: 0, y: -0.33400005, z: 0.819}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1064,6 +1064,16 @@ PrefabInstance:
     - target: {fileID: 321110510938392447, guid: 45a1f29a217b54b269d757e2b240b273,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6739694909752911642, guid: 45a1f29a217b54b269d757e2b240b273,
+        type: 3}
+      propertyPath: m_CameraYOffset
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6739694909752911642, guid: 45a1f29a217b54b269d757e2b240b273,
+        type: 3}
+      propertyPath: m_RequestedTrackingOriginMode
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7811158552409947642, guid: 45a1f29a217b54b269d757e2b240b273,
@@ -1221,7 +1231,7 @@ Transform:
   m_GameObject: {fileID: 2047341729}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.537, y: -0.023, z: 0.332}
+  m_LocalPosition: {x: 0.537, y: 0.95, z: 0.332}
   m_LocalScale: {x: 0.46489, y: 0.34972, z: 0.12612}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2775,7 +2785,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1980542706683962
 GameObject:
   m_ObjectHideFlags: 0
