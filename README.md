@@ -96,4 +96,4 @@ Video here:
 
 ## TestFlight
 
-Please try this example via [TestFlight](https://testflight.apple.com/join/u7N3N6QX).
+Please try this example via [TestFlight](https://testflight.apple.com/join/vmB9qpye).
