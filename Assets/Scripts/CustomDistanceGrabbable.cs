@@ -28,4 +28,9 @@ public class CustomDistanceGrabbable : SVRDistanceGrabbable
             SVRInput.TriggerHaptic(1, 1.0f, 50.0f, 0.2f);
         }
     }
+
+    public override void GrabEnd(Vector3 linearVelocity, Vector3 angularVelocity)
+    {
+        base.GrabEnd(linearVelocity, angularVelocity);
+    }
 }
