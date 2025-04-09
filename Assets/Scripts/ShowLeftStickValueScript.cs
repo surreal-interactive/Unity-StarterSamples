@@ -5,13 +5,21 @@ using UnityEngine;
 
 public class ShowLeftStickValueScript : MonoBehaviour
 {
+    public static ShowLeftStickValueScript instance;
+
     public TMP_Text leftStickXTmpText;
     public TMP_Text leftStickYTmpText;
+    public TMP_Text controlModeText;
+
+    private void Awake()
+    {
+        instance = this;
+    }
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        SwitchControlModeText(SVRControlMode.Controller);
     }
 
     // Update is called once per frame
@@ -26,6 +34,18 @@ public class ShowLeftStickValueScript : MonoBehaviour
         if (leftStickYTmpText)
         {
             leftStickYTmpText.text = leftStickAxis.y.ToString();
+        }
+    }
+
+    public void SwitchControlModeText(SVRControlMode mode)
+    {
+        if (mode == SVRControlMode.Controller)
+        {
+            controlModeText.text = "Hand";
+        }
+        else
+        {
+            controlModeText.text = "Controller";
         }
     }
 }

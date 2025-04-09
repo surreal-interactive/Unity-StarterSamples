@@ -65,12 +65,14 @@ public class ControlModeManager : MonoBehaviour
             SVRInput.SwitchMode(mode);
             controllerRootObj.SetActive(true);
             handRootObj.SetActive(false);
+            ShowLeftStickValueScript.instance.SwitchControlModeText(SVRControlMode.Controller);
         }
         else
         {
             SVRInput.SwitchMode(mode);
             handRootObj.SetActive(true);
             controllerRootObj.SetActive(false);
+            ShowLeftStickValueScript.instance.SwitchControlModeText(SVRControlMode.Hand);
         }
     }
 
