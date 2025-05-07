@@ -16,7 +16,17 @@ After that, it's recommended to try Surreal VR SDK following [Step-by-Step instr
    <img src="https://github.com/user-attachments/assets/95797844-f26a-41f4-9d15-5884247c194a" alt="description" width="80%">
 </p>
 
-> ℹ️ Versions of Unity prior to 2022.3 are not supported.
+# Requirements
+
+According to the requirements, only apps with visionOS 2.0 or later versions can be uploaded, the corresponding requirements are:
+
+1. Unity 6.0 or later versions.
+
+2. polyspatial 2.0 or later versions.
+
+3. Xcode 16.0 or later versions.
+
+> ℹ️ If you want to use visionOS 1.x and corresponding Unity 2022.x, please switch to the branch [Unity2022Version-visionOS1x](https://github.com/surreal-interactive/Unity-StarterSamples/tree/Unity2022Version-visionOS1x).
 
 # Build And Run Sample Scene
 
