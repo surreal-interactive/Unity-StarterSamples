@@ -327,7 +327,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.surrealsdk": {
-      "version": "https://github.com/surreal-interactive/SDK.git?path=/Assets",
+      "version": "https://github.com/surreal-interactive/SDK.git?path=/Assets#shimingliang/FixSlowWakeupAndChangeSVRCameraRigPrefab",
       "depth": 0,
       "source": "git",
       "dependencies": {
@@ -335,7 +335,7 @@
         "com.unity.xr.interaction.toolkit": "2.5.3",
         "com.unity.xr.hands": "1.3.0"
       },
-      "hash": "0127168350d516f81207cdd4ed78cfbe3bf40591"
+      "hash": "bc08cf2d3a8b70e6cc60f948867c8bafec36ae0f"
     },
     "com.unity.xr.visionos": {
       "version": "1.1.4",
