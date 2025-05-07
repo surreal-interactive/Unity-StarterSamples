@@ -18,7 +18,7 @@ After that, it's recommended to try Surreal VR SDK following [Step-by-Step instr
 
 # Requirements
 
-According to the requirements, only apps with visionOS 2.0 or later versions can be uploaded, the corresponding requirements are:
+According to the requirements, only apps with visionOS 2.0 or later versions can be uploaded to App Store, the corresponding requirements are:
 
 1. Unity 6.0 or later versions.
 
