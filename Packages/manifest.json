@@ -13,7 +13,7 @@
     "com.unity.timeline": "1.8.7",
     "com.unity.ugui": "2.0.0",
     "com.unity.visualscripting": "1.9.6",
-    "com.unity.xr.surrealsdk": "https://github.com/surreal-interactive/SDK.git?path=/Assets#shimingliang/FixSlowWakeupAndChangeSVRCameraRigPrefab",
+    "com.unity.xr.surrealsdk": "https://github.com/surreal-interactive/SDK.git?path=/Assets",
     "com.unity.xr.visionos": "2.2.4",
     "com.unity.modules.accessibility": "1.0.0",
     "com.unity.modules.ai": "1.0.0",
